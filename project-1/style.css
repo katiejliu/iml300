@@ -1,0 +1,42 @@
+*{
+    color:black;
+}
+
+/*
+body{
+    background-image:url(asset/period_sitting_at_desk.png);
+    background-color:red;
+    text-align: center;
+    background-size: cover;
+}
+*/
+
+body{
+    text-align: center;
+    font-family: 'Andale Mono', monospace;
+}
+
+.red {
+    background-color:red;
+}
+.border {
+    border: 3px solid black;
+}
+
+.border:hover {
+    background: black;
+/*    box-shadow: 0 0 100px black;*/
+    color: white;
+}
+
+.border:hover a {
+    color:white;
+}
+
+a:hover {
+    color:white;
+}
+
+a {
+    text-decoration: none;
+}
