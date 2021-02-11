@@ -11,6 +11,12 @@ body{
 }
 */
 
+html, body {
+    padding:0px;
+    margin:0px;
+    width:100%;
+}
+
 body{
     text-align: center;
     font-family: 'Andale Mono', monospace;
@@ -40,3 +46,75 @@ a:hover {
 a {
     text-decoration: none;
 }
+
+/*
+#container {
+    display:flex;
+    justify-content: center;
+      flex-direction: row;
+
+}
+*/
+
+
+#sliding-paragraph {
+    margin-left: auto;
+    margin-right: auto;
+	height: 245px;
+    width:100%;
+/*
+    display:flex;
+    align-items: center;
+    justify-content: center;
+      flex-direction: row;
+*/
+
+    padding:0;
+    margin: 0;
+}
+
+.slide-out, .slide-in {
+	display: block;
+	top: 0px;
+	left: 30%;
+	position: absolute;
+	-webkit-transition: all 300ms ease-in-out;
+
+}
+/*
+#container {
+    padding:15px;
+    margin:15px;
+}
+*/
+
+/* using transtions, you can move elements along the x or y axis */
+
+.slide-in {
+	opacity: 0;
+	-webkit-transform: translate(400px, 0);
+}
+
+/* when you hover on #paragraph-3, we're adjusting the x position of the .slide-out text, and .slide-in */
+
+#sliding-paragraph:hover .slide-out {
+	opacity: 0;
+	-webkit-transform: translate(-400px, 0);
+}
+
+
+#sliding-paragraph:hover .slide-in {
+	opacity: 1;
+	-webkit-transform: translate(0px, 0);
+    
+}
+
+#bottom {
+    position:relative;
+    top:550px;
+    margin:15px;
+    padding-bottom:20px;
+}
+#pic{
+ box-shadow: 0 0 30px #f62c2c;
+    }
