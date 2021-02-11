@@ -47,27 +47,13 @@ a {
     text-decoration: none;
 }
 
-/*
-#container {
-    display:flex;
-    justify-content: center;
-      flex-direction: row;
-
-}
-*/
-
 
 #sliding-paragraph {
     margin-left: auto;
     margin-right: auto;
 	height: 245px;
     width:100%;
-/*
-    display:flex;
-    align-items: center;
-    justify-content: center;
-      flex-direction: row;
-*/
+
 
     padding:0;
     margin: 0;
@@ -81,12 +67,6 @@ a {
 	-webkit-transition: all 300ms ease-in-out;
 
 }
-/*
-#container {
-    padding:15px;
-    margin:15px;
-}
-*/
 
 /* using transtions, you can move elements along the x or y axis */
 
