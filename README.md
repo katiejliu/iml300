@@ -1,5 +1,5 @@
 # HyperNarrative: Period
-![demo](https://github.com/katiejliu/iml300/blob/master/project-1/asset/ezgif.com-gif-maker.gif =1000x700)
+![demo](https://github.com/katiejliu/iml300/blob/master/project-1/asset/ezgif.com-gif-maker.gif)
 
 [Period.](https://katiejliu.github.io/iml300/project-1/) is an interactive web experience about getting your first period. 
 
