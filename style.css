@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+    font-family: 'Monaco', monospace;
+}
+
+body{
+    background-image:url(assets/background.jpg);
+    background-size: cover;
+}
+
+html, body {
+    padding:0px;
+    margin-top:0px;
+    width:100%;
+}
+
+.boxed{
+    background-color:white;
+    width:50%;
+    margin:auto;
+}
+
+.words{
+    margin-top:60px;
+}
+
+.boxedblack{
+    background-color:black;
+    width:50%;
+    margin:auto;
+    color:white;
+}
+
+a {
+    text-decoration: none;
+    color: tan;
+}
+a:hover {
+    color:gold;
+}
+
+.stupid{
+    margin-bottom:40px;
+}
+
+.bottom{
+    margin-bottom:60px;
+}
